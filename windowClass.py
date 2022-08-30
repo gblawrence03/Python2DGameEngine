@@ -1,5 +1,6 @@
 import pygame
 
+# Window class wrapper allowing easy creation of a window 
 class Window():
     def __init__(self, width, height, title, game):
         self.width = width

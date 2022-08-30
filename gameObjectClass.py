@@ -14,6 +14,7 @@ class GameObject():
         global handler
         self.handler = handler 
 
+    # Algorithm to detect if two rectangular objects are colliding
     def collideTwo(self, obj1, obj2):
         return (obj1.posX < obj2.posX + obj2.width and
                 obj1.posX + obj1.width > obj2.posX and

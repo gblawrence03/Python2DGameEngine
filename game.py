@@ -6,6 +6,7 @@ from gameObjectClass import GameObject
 import gameObjectClass
 from playerClass import Player
 
+# Game class allowing rendering, FPS recording
 class Game():
     def __init__(self):
         self.fpsTime = 0
